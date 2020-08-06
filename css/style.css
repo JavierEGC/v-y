@@ -1,0 +1,347 @@
+
+/*GENERALES*/
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.line{
+    border: solid 2px #373737;
+}
+
+.topmargin-lg{ margin-top: 80px; }
+.topmargin-md{ margin-top: 60px; }
+.topmargin-sm{ margin-top: 30px; }
+.topmargin-xs{ margin-top: 15px; }
+
+/*NAVBAR*/
+.navbar{
+    width: 100%;
+    min-height: 20px;
+    background: #373737;
+}
+.navbar .contenedor{
+    width: 90%;
+    margin: auto;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar span:hover{
+   color: white;
+   font-weight: bold;
+}
+
+
+
+/*HOME*/
+#home{
+    width: 100%;
+    min-height: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+#home h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
+}
+#home img{
+    width: 15%;
+    border-radius: 50%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+#home img:hover{
+    -moz-transform:  scale(1.1);
+    -webkit-transform:  scale(1.1);
+    transform: scale(1.2);
+}
+#home p{
+    width: 40%;
+    margin: auto;
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: 'Courgette', cursive;
+    color: black;
+}
+
+
+/*PRODUCTOS*/
+#products{
+    min-height: 600px;
+}
+#products .contenedor{
+    width: 85%;
+    min-height: 500px;
+    margin: auto;
+}
+.contenedor h2{
+    margin-top: 30px;
+    width: 22%;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    background-color:#1b1b1b;
+    color: white;
+}
+.contenedor .cubes{
+    margin: auto;
+    width: 90%;
+    min-height: 200px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.cubes .cube{
+    margin: auto;
+    width: 85%;
+    min-height: 180px;
+    border: solid 1px slategrey;
+    text-align: center;
+    padding: 20px;
+    
+}
+.cube img{
+    height: 250px;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.cube img:hover{
+    -moz-transform:  scale(1.1);
+    -webkit-transform:  scale(1.1);
+    transform: scale(1.1);
+}
+.cubes p{
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 5px;
+    color: black;
+}
+
+
+
+
+
+/*CONTACT*/
+#contact{
+    min-height: 250px;
+    background: #535353;
+    margin-top: 50px;
+}
+#contact .contenedor{
+    width: 85%;
+    min-width: 200px;
+    margin: auto;
+}
+.contenedor .cont{
+    width: 100%;
+    min-height: 150px;
+    margin-top: 40px;
+    text-align: center;
+}
+.cont img{
+    width: 160px;
+    border-radius: 50%;
+}
+.cont h5{
+    font-size: 22px;
+    color: white;
+}
+.cont h6, p, i{
+    font-size: 18px;
+    color: white;
+}
+.cont i{
+    margin-top: 10px;
+}
+.cont a{
+    margin: 15px;
+}
+
+/*FOOTER*/
+#footer{
+    width: 100%;
+    min-height: 80px;
+    background: #373737;
+}
+#footer p{
+    font-size: 16px;
+    margin-top: 25px;
+    color: thistle;
+}
+#footer a{ color: white;}
+#footer a:hover{ text-decoration: none;}
+#footer i{ 
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 25px;
+    color: white;
+    
+}
+
+
+/*ATRAS BOTON*/
+.numbers{
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:45px;
+    right:96%;
+    background-color:#1f1f1f;
+    color:white;
+    border-radius:40px;
+    text-align:center;
+    font-size:28px;
+    box-shadow: 0px 0px 5px 5px #999;
+    z-index:100;
+}
+.numbers:hover{
+    color:teal;
+}
+.my-numbers{
+    margin-top:10px;
+}
+
+
+
+/*CELULARES*/
+@media (max-width: 575.98px) {
+
+    .line{
+        border: solid 3px;
+    }
+    /*HOME*/
+    #home{
+        min-height: 550px;
+    }
+    #home h1{
+        font-size: 30px;
+    }
+    #home img{
+        width: 35%;
+        border-radius: 50%;
+    }
+    #home p{
+        width: 60%;
+        font-size: 18px;
+    }
+
+
+    /*PRODUCTOS*/
+    #products .contenedor{
+        width: 90%;
+        min-height: 500px;
+        margin: auto;
+    }
+    .contenedor h2{
+        width: 50%;
+        font-size: 15px;
+        text-align: center;
+        background-color:#1b1b1b;
+        color: white;
+    }
+    .contenedor .cubes{
+        margin: auto;
+        width: 100%;
+        
+    }
+    .cubes .cube{
+        margin: auto;
+        width: 100%;
+        min-height: 100px;
+    }
+    .cube img{
+        height: 100px;
+    }
+    
+    .cubes p{
+        margin-top: 14px;
+        font-size: 14px;
+        line-height: 1px;
+        color: black;
+    }
+
+
+
+
+
+    /*CONTACT*/
+    .cont img{
+        width: 100px;
+        border-radius: 50%;
+    }
+    .cont h5{
+        font-size: 16px;
+        color: white;
+        margin-top: -50px;
+    }
+    .cont h6, p, i{
+        font-size: 14px;
+        color: white;
+    }
+    .cont a{
+        margin: 10px;
+        font-size: 20px;
+        
+    }
+
+    /*FOOTER*/
+    #footer {text-align: center;}
+    #footer p{
+        font-size: 13px;
+        margin: 10px;
+    }
+    #footer i{ 
+        font-size: 22px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+
+/*ATRAS BOTON*/
+.numbers{
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:45px;
+    right:96%;
+    background-color:#1f1f1f;
+    color:white;
+    border-radius:40px;
+    text-align:center;
+    font-size:28px;
+    box-shadow: 0px 0px 5px 5px #999;
+    z-index:100;
+}
+.numbers:hover{
+    color:teal;
+}
+.my-numbers{
+    margin-top:10px;
+}
+
+/*LLAMADA*/
+.numbers{
+    width:40px;
+    height:40px;
+    bottom:25px;
+    right:25px;
+    font-size:20px;
+}
+.my-numbers{
+    margin-top:11px;
+}
+
+
+
+}
